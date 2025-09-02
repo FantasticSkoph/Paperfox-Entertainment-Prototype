@@ -20,9 +20,12 @@ a{
 }
 .navigation{
     list-style-type: none;
-    text-align: end;
+    display:block;
 }
 .navbar{
+    position:sticky;
+    top:0;
+    overflow:hidden;
     background: #4B5711;
     background: linear-gradient(180deg, rgba(75, 87, 17, 1) 75%, rgba(175, 191, 142, 1) 100%);    
     color:#ECECEC;
