@@ -1,11 +1,51 @@
 body{
     font-family: "Atkinson Hyperlegible", sans-serif;
+    background: #555F17;
+    background: linear-gradient(0deg, rgba(85, 95, 23, 1) 0%, rgba(240, 232, 159, 1) 100%);
 }
 h1{
-    font-size:24px;
-    display:inline-block;
+    font-size:36px;
+    text-align: center;
+}
+h2{
+    font-size:28px;
+}
+h3{
+    font-size: 24px;
+    padding:2rem;
 }
 a{
     text-decoration: none;
     text-align:center;
+}
+.navigation{
+    list-style-type: none;
+    text-align: end;
+}
+.navbar{
+    background: #4B5711;
+    background: linear-gradient(180deg, rgba(75, 87, 17, 1) 75%, rgba(175, 191, 142, 1) 100%);    
+    color:#ECECEC;
+}
+.box{
+    border-style:solid;
+    border-radius:40px;
+    margin: 0 10%;
+    text-align: center;
+    border-color: #222412;
+    border-width: 5px;
+    background-color: rgba(240, 232, 159, 0.2);
+}   
+p{
+    text-align: justify;
+    padding:2rem;
+    font-size:24px;
+}
+footer{
+    background: #4B5711;
+    background: linear-gradient(0deg, rgba(75, 87, 17, 1) 70%, rgba(175, 191, 142, 1) 100%);
+}
+.copyright{
+    color:#ECECEC;
+    font-size:14px;
 }
