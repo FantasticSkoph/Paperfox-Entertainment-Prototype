@@ -17,14 +17,21 @@ h3{
 a{
     text-decoration: none;
     text-align:center;
+    color:#ECECEC;
 }
 .navigation{
+    display:flex;
+    flex-direction: row;
     list-style-type: none;
     display:block;
+    text-align:end;
+    padding:10px 20px;
+    font-size:24px;
 }
 .navbar{
     position:sticky;
     top:0;
+    z-index:1;
     overflow:hidden;
     background: #4B5711;
     background: linear-gradient(180deg, rgba(75, 87, 17, 1) 75%, rgba(175, 191, 142, 1) 100%);    
@@ -45,10 +52,19 @@ p{
     font-size:24px;
 }
 footer{
+    position:absolute;
+    z-index:1;
     background: #4B5711;
     background: linear-gradient(0deg, rgba(75, 87, 17, 1) 70%, rgba(175, 191, 142, 1) 100%);
+    width:100%;
 }
 .copyright{
     color:#ECECEC;
     font-size:14px;
+}
+.logo{
+    display:flex;
+    max-width:5%;
+    flex-direction: row;
+    border-radius:50px;
 }
