@@ -66,7 +66,7 @@ a:active{
     z-index:1;
     overflow:hidden;
     background: #4B5711;
-    background: linear-gradient(180deg, rgba(75, 87, 17, 1) 75%, rgba(175, 191, 142, 1) 100%);    
+    background: linear-gradient(180deg, rgba(75, 87, 17, 1) 0%, rgba(175, 191, 142, 1) 100%);    
     color:#ECECEC;
     list-style-type: none;
 }
@@ -86,7 +86,7 @@ footer{
     bottom: 0;
     width:100%;
     background: #4B5711;
-    background: linear-gradient(0deg, rgba(75, 87, 17, 1) 70%, rgba(175, 191, 142, 1) 100%);
+    background: linear-gradient(0deg, rgba(75, 87, 17, 1) 0%, rgba(175, 191, 142, 1) 100%);
     margin-bottom: -2%;
 }
 .copyright{
