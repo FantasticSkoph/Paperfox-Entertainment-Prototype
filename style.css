@@ -6,7 +6,7 @@ body, html{
     height:100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:fill;
     margin-top: 4%;
 }
 h1{
@@ -88,10 +88,14 @@ footer{
     width:100%;
     background: #4B5711;
     background: linear-gradient(0deg, rgba(75, 87, 17, 1) 0%, rgba(175, 191, 142, 1) 100%);
-    margin-bottom: -2%;
+    height:50px;
+}
+.social{
+    width:20px;
 }
 .copyright{
     color:#ECECEC;
     font-size:14px;
+    margin-top: -10px;
 }
 /* Footer */
