@@ -50,11 +50,12 @@ a:active{
 }
 .navigation{
     display:block;
-    text-align:end;
+    text-align: end;
     padding:10px 20px;
     font-size:24px;
 }
 .navigation:hover{
+    flex-wrap: wrap;
     text-decoration: underline;
     text-decoration-color: #ECECEC;
 }
