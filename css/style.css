@@ -1,7 +1,6 @@
 /* Aesthetic appearance and body components */
-body, html{
+body{
     font-family: "Atkinson Hyperlegible", sans-serif;
-    background: #555F17;
     background: linear-gradient(0deg, rgba(85, 95, 23, 1) 0%, rgba(240, 232, 159, 1) 100%);
     height:93%;
     background-position: center;
