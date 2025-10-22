@@ -1,6 +1,6 @@
 /* Aesthetic appearance and body components */
 body{
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif !important;
     background: linear-gradient(0deg, rgba(85, 95, 23, 1) 0%, rgba(240, 232, 159, 1) 100%);
     height:100vh;
     background-position: center;
@@ -10,13 +10,12 @@ body{
 }
 h1{
     font-size:48px;
-    text-align: center;
-    font-family: "Caveat Brush", sans-serif;
+    font-family: "Caveat Brush", sans-serif !important;
     padding-top:2%;
 }
 h2{
     font-size:32px;
-    font-family: "Caveat Brush", sans-serif;
+    font-family: "Caveat Brush", sans-serif !important;
 }
 h3{
     font-size: 24px;
@@ -39,12 +38,11 @@ p{
 /* Aesthetic appearance and body components */
 /* Navbar and header */
 a{
-    text-decoration: none;
-    text-align:center;
-    color:#ECECEC;
+    text-decoration: none !important;
+    color:#ECECEC !important;
 }
 a:active{
-    text-decoration: underline;
+    text-decoration: underline !important;
     text-decoration-color: #ECECEC;
 }
 .navigation{
@@ -55,7 +53,7 @@ a:active{
 }
 .navigation:hover{
     flex-wrap: wrap;
-    text-decoration: underline;
+    text-decoration: underline !important;
     text-decoration-color: #ECECEC;
 }
 .navbar{
