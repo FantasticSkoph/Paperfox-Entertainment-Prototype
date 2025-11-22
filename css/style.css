@@ -68,6 +68,10 @@ a:active{
     color:#ECECEC;
     list-style-type: none;
 }
+.nav-link{
+    text-align: end !important;
+    
+}
 .logo{
     max-width:5%;
     margin:1rem 1rem 0 1rem;
