@@ -83,6 +83,19 @@ a:active{
     font-size: 32px;
 }
 /* Navbar and header */
+/* Carousel*/
+.c-item{
+    height:250px;
+}
+.c-img{
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+.c-img:hover{
+    transform: scale(1.1);
+}
+/* Carousel*/
 /* Footer */
 footer{
     position:fixed;
