@@ -1,7 +1,6 @@
 /* Aesthetic appearance and body components */
 body{
     font-family: Arial, sans-serif!important;
-    background-repeat: no-repeat;
     background: linear-gradient(0deg, rgba(85, 95, 23, 1) 0%, rgba(240, 232, 159, 1) 100%);
     height:100vh;
     background-position: center;
@@ -78,6 +77,18 @@ a:active{
     margin:1rem 1rem 0 1rem;
     vertical-align: middle;
 }
+.PFELogo{
+    max-width:10%;
+    margin:auto;
+    margin-right:1rem;
+    vertical-align: middle;
+}
+.ICLogo{
+    max-width:20rem;
+    display:block;
+    margin:auto;
+    margin-bottom:1rem;
+}
 .title{
     font-family: "Caveat Brush", sans-serif;
     font-size: 32px;
@@ -102,8 +113,6 @@ footer{
     left: 0;
     bottom: 0;
     width:100%;
-    background-image: 
-        url("../assets/img/bgYellow.webp");
     background: #4B5711;
     background: linear-gradient(0deg,rgba(75, 87, 17, 1) 0%, rgba(153, 155, 82, 1) 100%);
     height:50px;
@@ -128,5 +137,17 @@ footer{
         background-size:fill;
         margin-top: 4%;
     }
-
+    .PFELogo{
+        max-width:10%;
+        margin:auto;
+        margin-right:1rem;
+        display: block;
+        justify-content: center;
+    }
+    .ICLogo{
+        width:20rem;
+        display:block;
+        margin:auto;
+        margin-bottom:1rem;
+    }
 }
