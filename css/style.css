@@ -43,18 +43,18 @@ a{
 }
 a:active{
     text-decoration: underline !important;
-    text-decoration-color: #ECECEC;
+    text-decoration-color: #ECECEC !important;
 }
 .navigation{
-    display:block;
-    text-align: right;
-    padding:10px 20px;
-    font-size:24px;
+    display:block !important;
+    text-align: end !important;
+    padding:10px 20px !important;
+    font-size:18px !important;
 }
 .navigation:hover{
     flex-wrap: wrap;
     text-decoration: underline !important;
-    text-decoration-color: #ECECEC;
+    text-decoration-color: #ECECEC !important;
 }
 .navbar{
     position:fixed;
@@ -67,10 +67,6 @@ a:active{
     background: linear-gradient(180deg,rgba(75, 87, 17, 1) 0%, rgba(153, 155, 82, 1) 100%);    
     color:#ECECEC;
     list-style-type: none;
-}
-.nav-link{
-    text-align: end !important;
-    
 }
 .logo{
     max-width:5%;
