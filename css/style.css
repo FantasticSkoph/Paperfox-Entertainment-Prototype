@@ -60,7 +60,7 @@ a:active{
 }
 .navigation{
     display:flex !important;
-    justify-content: right !important;
+    justify-content: space-between !important;
     padding:10px 20px !important;
     font-size:18px !important;
 }
@@ -93,7 +93,7 @@ a:active{
     vertical-align: middle;
 }
 .ICLogo{
-    max-width:20rem;
+    max-width:40rem;
     display:block;
     margin:auto;
     margin-bottom:1rem;
