@@ -24,7 +24,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-success-subtle position-sticky top-0 z-3">
-        <div class="container m-0">
+        <div class="container-fluid px-0">
             <a href="../index.html" class="title ml-2 mr-2"><img src="../assets/img/PFE_Logo_Color.webp" class="PFELogo">Paperfox Entertainment</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,24 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link navigation">
-                        <a href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.html" style="text-decoration:underline !important;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <a class="btn navigation nav-button" href="catalog.html">Game library</a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split nav-button navigation" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle Dropdown">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-custom">
+                                <li><a class="dropdown-item nav-button" href="I&C.html">Ink & Cursor</a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item nav-link navigation">
-                        <a href="catalog.html" style="text-decoration:underline !important;">Game library</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item nav-link navigation">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="nav-item nav-link navigation">
-                        <a href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -66,6 +74,18 @@
 </body>
 <footer>
     <p class="copyright">©2026 Paperfox Entertainment. All rights reserved</p>
+    <div class="footer-right">
+        <a href="https://www.patreon.com/PaperfoxEntertainment" aria-label="Patreon" target="_blank"><img src="../assets/img/patreonPE.webp" alt="Patreon"></a>
+        <a href="https://discord.gg/U7HDAXRdHJ" aria-label="Discord" target="_blank"><img src="../assets/img/discordPE.webp" alt="Discord"></a>
+        <a href="https://www.instagram.com/paperfox888/" aria-label="Instagram" target="_blank"><img src="../assets/img/instagramPE.webp" alt="Instagram"></a>
+        <a href="https://x.com/PaperFox888" aria-label="Twitter" target="_blank"><img src="../assets/img/twitterPE.webp" alt="Twitter"></a>
+        <a href="https://bsky.app/profile/paperfox888.bsky.social" aria-label="Bluesky" target="_blank"><img src="../assets/img/blueskyPE.webp" alt="Bluesky"></a>
+        <a href="https://www.tumblr.com/paperfox888" aria-label="Tumblr" target="_blank"><img src="../assets/img/tumblrPE.webp" alt="Tumblr"></a>
+        <a href="https://www.facebook.com/p/Paperfox-Entertainment-61576990012890/" aria-label="Facebook" target="_blank"><img src="../assets/img/facebookPE.webp" alt="Facebook"></a>
+        <a href="https://www.linkedin.com/in/paperfox-entertainment-612041321/" aria-label="LinkedIn" target="_blank"><img src="../assets/img/linkedinPE.webp" alt="LinkedIn"></a>
+        <a href="https://www.youtube.com/@PaperFoxEntertainment" aria-label="YouTube" target="_blank"><img src="../assets/img/youtubePE.png" alt="YouTube"></a>
+        <a href="https://www.tiktok.com/@paperfox_entertainment" aria-label="TikTok" target="_blank"><img src="../assets/img/tiktokPE.webp" alt="TikTok"></a>
+    </div>
 </footer>
 <script src="../js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
