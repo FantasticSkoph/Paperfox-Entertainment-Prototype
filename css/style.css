@@ -139,6 +139,9 @@ a:active{
 }
 .text-box{
     background-color: #e6e6e6 !important;
+    border-width: 2px !important;
+    border-color: #adadad !important;
+    border-radius:10px !important;
 }
 button{
     border-radius: 10px !important;
