@@ -133,9 +133,12 @@ a:active{
     text-align: center;
     border-color: #222412;
     border-width: 5px;
-    background-color: rgba(240, 232, 159, 0.2);
+    background-color: rgba(255, 255, 255, 1);
     margin-bottom:4rem;
     padding:20px;
+}
+.text-box{
+    background-color: #e6e6e6 !important;
 }
 button{
     border-radius: 10px !important;
