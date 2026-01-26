@@ -61,8 +61,7 @@ a:active{
     text-decoration-color: #ECECEC !important;
 }
 .navigation{
-    z-index: 1 !important;
-    padding:10px 20px !important;
+    margin-bottom:-15px;
     font-size:18px !important;
     vertical-align: middle;
 }
