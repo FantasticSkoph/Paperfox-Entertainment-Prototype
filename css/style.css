@@ -35,6 +35,12 @@ h3{
     margin:auto;
     margin-bottom:1rem;
 }
+.title-deco-3{
+    max-width: 30vw;
+    display:block;
+    margin:auto;
+    margin-bottom:1rem;
+}
 .box{
     border-style:solid;
     border-radius:40px;
@@ -49,6 +55,11 @@ p{
     text-align: justify;
     padding:2rem;
     font-size:24px;
+}
+.IC-list{
+    font-size: 24px !important;
+    text-align: start !important;
+    margin-top:-40px;
 }
 /* Aesthetic appearance and body components */
 /* Navbar and header */
@@ -156,6 +167,13 @@ a:active{
     height: 300px;
     margin:auto;
     margin-bottom:4rem;
+}
+.IC-img{
+    display:block;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: 4rem;
+    border-radius: 25px;
 }
 /* Images and icons*/
 /* Form */
@@ -268,6 +286,12 @@ footer{
         display:block;
         margin:auto;
         margin-bottom:1rem;
+    }
+    .IC-img{
+        display:flex;
+        flex-flow:row;
+        max-width: 100%;
+        border-radius: 25px;
     }
     .box{
         border-style:solid;
