@@ -59,8 +59,8 @@ a:active{
     text-decoration-color: #ECECEC !important;
 }
 .navigation{
-    display:block !important;
-    text-align: end !important;
+    display:flex !important;
+    justify-content: right !important;
     padding:10px 20px !important;
     font-size:18px !important;
 }
@@ -87,7 +87,7 @@ a:active{
     vertical-align: middle;
 }
 .PFELogo{
-    max-width:10%;
+    max-width:50px !important;
     margin:auto;
     margin-right:1rem;
     vertical-align: middle;
@@ -99,6 +99,8 @@ a:active{
     margin-bottom:1rem;
 }
 .title{
+    display:contents;
+    align-content: start;
     font-family: "Caveat Brush", sans-serif;
     font-size: 32px;
 }
@@ -116,6 +118,13 @@ a:active{
     transform: scale(1.1);
 }
 /* Carousel*/
+/* Images and icons*/
+.icon-team{
+    height: 300px;
+    margin:auto;
+    margin-bottom:4rem;
+}
+/* Images and icons*/
 /* Form */
 .box-contact{
     border-style:solid;
@@ -172,6 +181,15 @@ footer{
         background-size:fill;
         margin-top: 4%;
     }
+    .PFELogo{
+        max-width:50px !important;
+        margin-right:1rem;
+        vertical-align: middle;
+    }
+    .title{
+        font-family: "Caveat Brush", sans-serif;
+        font-size: 32px;
+    }
     .title-deco{
         max-width:250px;
         display:block;
@@ -210,7 +228,7 @@ footer{
     .box-contact{
         border-style:solid;
         border-radius:40px;
-        margin: 0 5%;
+        margin: 0 0 5% 0 !important;
         text-align: center;
         border-color: #222412;
         border-width: 5px;
